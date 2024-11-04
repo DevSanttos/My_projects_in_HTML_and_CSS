@@ -1,0 +1,67 @@
+body {
+    background: linear-gradient(to right, white 600px, black 0px);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    background-color: #00000000;
+    padding: 20px;
+    border-radius: 8px;
+}
+.imagem-container {
+    margin-right: 20px;
+    border: 3px solid #6d6565;
+    padding:15px;
+}
+.imagem {
+    width: 450px;
+    height: auto;
+}
+.divisao {
+    color: white;
+}
+.titulo {
+    font-size: 30px;
+    line-height: 20px;
+}
+h2 {
+    line-height: 20px;
+    max-width: 350px;
+    font-size: medium;
+}
+.iconeLocalizacao a {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    align-items: center;
+    color: white;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.botao{
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: #2e2c2c;
+}
+.iconeLocalizacao i {
+    margin-right: 8px;
+}
+.iconesMenu {
+    margin-top: 20px;
+}
+.iconesMenu a {
+    color: white;
+    margin: 0 10px;
+    font-size: 35px;    
+    text-decoration: none;
+}
